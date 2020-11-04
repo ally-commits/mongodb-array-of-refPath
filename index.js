@@ -4,8 +4,7 @@ const Product = require('./models/Product')
 const Order = require('./models/Order')
 
 
-
-const dbURI = 'mongodb+srv://ally:Asd@1234@cluster0.e694a.mongodb.net/temp-one?retryWrites=true&w=majority';
+ 
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
     .then(async (result) => {
